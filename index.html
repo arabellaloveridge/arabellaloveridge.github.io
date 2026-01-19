@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home Page</title>
+    <!-- resets browser defaults -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-accent">[</span>Arabella Loveridge<span class="logo-accent">]</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#work" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="files/resume2025.pdf" target="blank" class="nav-link">Resume</a></li>
+                <li><a href="files/ArabellaLoveridgeCV2025.pdf" target="_blank" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-label">Game Designer & Developer</div>
+            <h1>Hi, I'm Arabella Loveridge</h1>
+            <h2>Creating Engaging Gameplay Experiences</h2>
+            <p>I'm a game designer specializing in systemic design, 3Cs, and cooperative gameplay. I combine technical
+                expertise with creative vision to craft memorable player experiences that bring communities together.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="files/resume2025.pdf" target="blank" class="btn btn-secondary">Download My Resume</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="work-experience" id="work">
+        <div class="section-header">
+            <div class="section-label">Experience</div>
+            <h2 class="section-title">Where I've Worked</h2>
+        </div>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="card-image">
+                    <img src="images/realXP.webp">
+                </div>
+                <div class="card-content">
+                    <span class="card-tag">Current</span>
+                    <h3>RealXP Lab</h3>
+                    <p>Extern member of prototyping team. Working with cohort on undisclosed project alongside Serenity
+                        Forge.</p>
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="card-image">
+                    <img src="images/cewit.jpeg">
+                </div>
+                <div class="card-content">
+                    <span class="card-tag">2 years</span>
+                    <h3>Center of Excellence for Women & Technology</h3>
+                    <p>Game Design Intern &plus; Lead &ndash; Worked with Game Design team to curate events, worked with
+                        other teams, and be a friendly face for the Game Design community at Indiana University.</p>
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="card-image"
+                    style="background-image: url('https://via.placeholder.com/600x400/ff6b6b/ffffff?text=Current+Role');">
+                </div>
+                <div class="card-content">
+                    <span class="card-tag">Current</span>
+                    <h3>Kiwi Punch Studios</h3>
+                    <p>Student-made studio for a college capstone project. Formed to publish BeatTown &ndash; our final
+                        project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <div class="section-label">Featured Work</div>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A showcase of my design work across different platforms and genres</p>
+        </div>
+        <div class="project-list">
+            <div class="project-item">
+                <div class="project-image-wrapper">
+                    <div class="project-image">
+                        <img src="images/beattown.png" alt="BeatTown gameplay">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>BeatTown</h3>
+                    <div class="project-meta">
+                        <span class="meta-tag">2 years</span>
+                        <span class="meta-tag">Unity</span>
+                    </div>
+                    <p>A 2D turn-based tactical RPG set in BeatTown &ndash; where every minor inconvenience is solved by
+                        a wrestling match! I was responsible for all the artwork, as well as programming the UV mapping
+                        animation system and state machine.</p>
+                    <a href="https://store.steampowered.com/app/3593370/BeatTown/" target="_blank"
+                        class="project-link">View Steam →</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-image-wrapper">
+                    <div class="project-image">
+                        <img src="images/chess.png" class="chess" alt="Chess gameplay">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Chess Recreation</h3>
+                    <div class="project-meta">
+                        <span class="meta-tag">Current</span>
+                        <span class="meta-tag">Personal Project</span>
+                        <span class="meta-tag">Python</span>
+                    </div>
+                    <p>My own personal recreation of one of the most well known board games of all time - Chess.</p>
+                    <a href="https://github.com/arabellaloveridge/python-chess" target="_blank"
+                        class="project-link">View Repository →</a>
+                </div>
+            </div>
+
+            <!-- <div class="project-item">
+            <div class="project-image-wrapper">
+                <div class="project-image"
+                    style="background: linear-gradient(135deg, #764ba2 0%, #667eea 50%, #43e97b 100%);"></div>
+            </div>
+            <div class="project-info">
+                <h3>In A Pickle</h3>
+                <div class="project-meta">
+                    <span class="meta-tag">Current</span>
+                    <span class="meta-tag">Personal Project</span>
+                    <span class="meta-tag">Unity</span>
+                </div>
+                <p>A 3D physics-based game where you are a pickle escaping the pickle jar &ndash; and eventually the house!</p>
+                <a href="#" class="project-link">View Details →</a>
+            </div>
+        </div> -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <div class="section-label">Get To Know Me</div>
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">My skills, tools, and what I bring to the table</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-image-wrapper">
+                <div class="about-image">
+                    <img src="images/me.jpg">
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>
+                        Game Design
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">Prototyping</div>
+                        <div class="skill-item">Art &plus; Animation</div>
+                        <div class="skill-item">UV Mapping</div>
+                        <div class="skill-item">Documentation</div>
+                        <div class="skill-item">Level Design</div>
+                        <div class="skill-item">Narrative Design</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        Development
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">Unity (C#)</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">Rapid Prototyping</div>
+                        <div class="skill-item">Version Control</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        Tools & Software
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">Microsoft Office</div>
+                        <div class="skill-item">Notion</div>
+                        <div class="skill-item">Adobe Suite</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        Interests
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">Red Dead Redemption 2</div>
+                        <div class="skill-item">The Witcher 3</div>
+                        <div class="skill-item">Game of Thrones</div>
+                        <div class="skill-item">Sports &lpar;Field Hockey, Football, Formula 1&rpar;</div>
+                        <div class="skill-item">Indie Music</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <div class="section-label">Let's Connect</div>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I'm always open to discussing new projects and opportunities</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <a href="mailto:arabellaloveridge@gmail.com" class="contact-email">arabellaloveridge@gmail.com</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/arabella-loveridge-b81414362/" target="blank" class="social-link"
+                    title="LinkedIn">in</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Arabella Loveridge.</p>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const navLinkItems = document.querySelectorAll('.nav-link');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        navLinkItems.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Active link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinkItems.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth scroll for nav links
+        navLinkItems.forEach(link => {
+            link.addEventListener('click', (e) => {
+                const href = link.getAttribute('href');
+
+                // Only apply smooth scroll to anchor links (starting with #)
+                if (href.startsWith('#')) {
+                    e.preventDefault();
+                    const targetId = href.substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    const navHeight = navbar.offsetHeight;
+                    const targetPosition = targetSection.offsetTop - navHeight;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+                // Links to files or external URLs will work normally
+            });
+        });
+
+        // Scroll reveal for project items
+        const projectItems = document.querySelectorAll('.project-item');
+
+        const revealProjects = () => {
+            projectItems.forEach(item => {
+                const itemTop = item.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (itemTop < windowHeight - 100) {
+                    item.classList.add('visible');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', revealProjects);
+        revealProjects(); // Check on load
+
+        // Intersection Observer for experience cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.experience-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+
+</body>
+
+</html>
